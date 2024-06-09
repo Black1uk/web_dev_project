@@ -1,0 +1,211 @@
+@import url(https://fonts.google.com/specimen/Hanken+Grotesk);
+
+:root{
+    --Lightred: hsl(0, 100%, 67%);
+    --Orangeyyellow: hsl(39, 100%, 56%);
+    --Greenteal: hsl(166, 100%, 37%);
+    --Cobaltblue: hsl(234, 85%, 45%);
+    --Lightslateblue :hsl(252, 100%, 67%);
+    --Lightroyalblue: hsl(241, 81%, 54%);
+    --Violetblue: hsla(256, 72%, 46%, 1);
+    --Persianblue: hsla(241, 72%, 46%, 0);
+    --White: hsl(0, 0%, 100%);
+    --Paleblue: hsl(221, 100%, 96%);
+    --Lightlavender: hsl(241, 100%, 89%);
+    --Darkgrayblue: hsl(224, 30%, 27%);
+}
+
+.page{
+    display:initial;
+    color: hsl(251, 74%, 82%);
+}
+.title{
+    color: hsl(251, 74%, 82%);
+}
+body{
+    background-color: var(--Paleblue);
+}
+
+
+.work{
+    margin: 30px;
+    width: 650px;
+    height: 400px;
+    display: block;
+   /* position: absolute;*/
+    margin-left: 290px;
+    border: 10px;
+    border-radius: 15px;
+    background-color: var(--White);
+    font-size: 18px;
+    margin-top: 100px;
+    font-family:"Hanken Grotesk", sans-serif;
+}
+
+span{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result{
+    position: absolute;
+    height: 400px;
+    border: 10px;
+    border-radius: 15px;
+    width: 325px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(234, 85%, 45%));
+    text-align: center;
+}
+
+.side{
+    float: inline-end;
+    margin-right: 43px;
+    
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    margin: 25px auto;
+    border: 2px;
+    border-radius: 120px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%));
+    
+}
+
+.inside-circle{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    font-size: 60px;
+    margin-top: 37px;
+    color: var(--White);
+    
+}
+
+
+button{
+    border: 10px;
+    border-radius: 20px;
+    height: 40px;
+    width: 250px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(234, 85%, 45%));
+    color: var(--White);
+    cursor: pointer;
+    
+}
+
+.sum{
+    font-weight: bold;
+}
+
+.score{
+    color: black;
+    margin-left: 70px;
+    position: relative;
+    left: 14px;
+}
+
+.score1{
+    color: black;
+    margin-left: 70px;
+    
+    
+}
+
+.rate1,h5{
+    border: 10px;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    line-height: 40px;
+    text-align:center;
+}
+
+.rea{
+    background-color: rgb(255, 238, 238);
+    color: var(--Lightred);
+    text-indent: 30px;
+}
+
+.mem{
+    background-color: rgb(248, 244, 225);
+    color: var(--Orangeyyellow);
+    text-indent: 30px;
+}
+
+.ver{
+    background-color: var(--Paleblue);
+    color: var(--Greenteal);
+    text-indent: 15px;
+}
+
+.vis{
+    background-color: hsl(240, 55%, 94%);
+    color: var(--Violetblue);
+    text-indent: 15px;
+    
+}
+
+.over{
+    color:  hsl(240, 2%, 50%);
+}
+
+.great{
+    color: var(--White);
+    height: 15px;
+}
+
+.span1{
+    font-size:15px;
+    margin: 40px;
+    margin-top: 1px;
+    margin-left: 55px;
+    color: var(--Lightslateblue);
+}
+
+.span2{
+    margin-left: 66px;
+}
+
+.span3{
+    margin-left:120px;
+}
+
+.icon-mem{
+    position: absolute;
+    left: 663px;
+    top: 245px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.icon-reac{
+    position: absolute;
+    left: 663px;
+    top: 180px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-ver{
+    position: absolute;
+    left: 663px;
+    top: 310px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-vis{
+    
+    position: absolute;
+    left: 663px;
+    top: 375px;
+    width: 20px;
+    height: 20px;
+}
+
+@media screen {
+    
+}
